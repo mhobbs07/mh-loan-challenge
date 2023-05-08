@@ -1,0 +1,9 @@
+POST http://localhost:9000/api/offers
+Content-Type: application/json
+
+{
+  "phoneNumber": "2628884545",
+  "creditScore": 0.750
+}
+
+###
