@@ -1,0 +1,48 @@
+{
+    "experiments": [
+        {
+            "name": "Test high offers",
+            "startDate": "2020-05-01",
+            "endDate": "2020-05-31",
+            "offers": [
+                {
+                    "minScore": 0.9,
+                    "amount": 5000,
+                    "fee": 10,
+                    "term": 90
+                },
+                {
+                "minScore": 0.5,
+                "amount": 100,
+                "fee": 10,
+                "term": 90
+                }
+            ]
+        },
+        {
+            "name": "Free for all",
+            "startDate": "2020-06-01",
+            "endDate": "2099-12-31",
+            "offers": [
+                {
+                    "minScore": 0.9,
+                    "amount": 1000,
+                    "fee": 5,
+                    "term": 90
+                },
+                {
+                    "minScore": 0.5,
+                    "amount": 100,
+                    "fee": 10,
+                    "term": 90
+                },
+                {
+                    "minScore": 0.0,
+                    "amount": 10,
+                    "fee": 10,
+                    "term": 30
+                }
+            ]
+        }
+    ]
+}
